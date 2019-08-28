@@ -1,0 +1,104 @@
+\documentclass[11pt, oneside, a4paper]{article}
+
+
+\input{preamble.tex}
+%---header/style/enumeration-------
+\pagestyle{fancy}
+\lhead{Capstone}
+\chead{MCS}
+\rhead{2019-2020 Semester 1}
+\author{
+    Student: Jianglong LIAO\\
+    Supervisor: Professor Bruno Bodin
+    }
+%----------------------------------
+
+%-----------MY INFORMATION---------
+%\title{{\fontfamily{qbk}\selectfont
+\title{\textsc{Capstone Proposal}}
+\date{\vspace{-5ex}} 
+%----------------------------------
+%unnumbered sections in TOC
+\setcounter{secnumdepth}{0}
+
+%-----This is where the GOOD STUFF begins---
+\begin{document}
+
+\maketitle
+
+\thispagestyle{fancy}
+
+
+\section{Title}
+Real-time filtering for benchmarking multi-sensory simultaneous localization and mapping (SLAM) systems
+
+\section{Subject Areas}
+Software engineering, computer vision, robotics, embedded systems, benchmarking.
+
+\section{Challenges}
+\subsection{Theoretical knowledge}
+Understanding and integrating the filtering algorithm requires a strong basis on linear algebra and image processing methods.
+
+The student has taken advanced courses such as machine learning and computer-assisted image processing and familiarized himself with topics such as simultaneous localization and mapping, embedded systems, and advanced algorithms via previous internships, independent reading, and self-studying.
+
+\subsection{Implementation}
+Implementing the real-time filtering in C++ in the large, on-going, open-source project SLAMBench requires a thorough understanding of software architecture, coordination ability with the global research team and versioning control.
+
+The student has done numerous open source projects in Linux environment, especially in the area of performance benchmarking, and is currently taking the courses such as software engineering and C. Although this will be his first attempt to develop a module in C++, previous experiences in other object-oriented languages (Python, R, Java, Javascript) should assist with the process.
+
+\section{Scope}
+Benchmarking a SLAM system for each specific type of SLAM algorithm requires a combination of deep understanding of computer vision and special coding adjustment for various filters. Creating and integrating a generic filtering module into a SLAM benchmarking system allows SLAM researchers to test their SLAM systems with little specific knowledge of certain filtering techniques and start benchmarking with minimum configuration.
+
+The first goal of this project is to investigate the current SLAMBench package and consider restructuring the architecture with minimum impact on the end users. Then implement three fundamental filters (random drop, blur, resize) to test their compatibility with the SLAMBench program. The second goal is to develop a more versatile filtering system using machine learning / advanced algorithms for benchmarking purposes. 
+
+\section{Expectations associated with grade achievement}
+
+A detailed description of the restructuring process of the SLAMBench program demonstrates adequate understanding of the SLAM benchmarking, and software engineering as it is essential for integrating the filtering module.
+
+\noindent A filtering module compatible with SLAMBench program 
+
+\section{Semester 1 plan with time allocation}
+
+Estimated consultation time is one hour per week. Consultation consists of communication via git repository as well as one-on-one meetings.
+
+\begin{center}
+    \begin{tabular}{|l|l|l|} 
+        \hline
+        Time & Task & Deliverable\\
+        \hline
+        week 1 & Draft project proposal. & \\ 
+        \hline
+        week 2 & Finalize proposal with supervisor.& \\ 
+        \hline
+        week 3 & Learn about the architecture of SLAMBench program.&\\
+        \hline
+        week 4 & Start restructuring the architecture of SLAMBench program.&\\
+        \hline
+        week 5 & Read papers on the SLAM filtering techniques.&\\
+        \hline 
+        16 Sep 5pm & & Proposal\\
+        \hline
+        week 6 & Read papers on the SLAM filtering techniques.&\\
+        \hline
+        week 7 & Implement the filtering in SLAMBench.&\\
+        \hline
+        week 8 & Implement the filtering in SLAMBench.&\\
+        \hline
+        week 9 & Implement the filtering in SLAMBench.&\\
+        \hline
+        18 Oct 5pm & & Draft Report 1\\
+        \hline
+        week 10 & Implement the filtering in SLAMBench.&\\
+        \hline
+        week 11 & Organize the filtering and run testing in SLAMBench.& Presentation\\
+        \hline
+        week 12 & Write a documentation for the filtering.& Presentation\\
+        \hline
+        week 13 & Write a documentation for the filtering.&\\
+        \hline
+        15 Nov 5pm & & Final Report 1\\
+        \hline
+    \end{tabular}
+\end{center}
+
+\end{document}
