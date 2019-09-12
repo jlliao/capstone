@@ -1,0 +1,117 @@
+% Chapter 2
+
+\chapter{Background and Related Work} % Main chapter title
+
+\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter2}
+
+This chapter serves to introduce key and essential concepts of robotics system benchmarking and SLAM systems. 
+Prior knowledge of SLAM and relevant technical understanding is not presupposed for reading this chapter, so the internal workings of specific SLAM systems, including the applied mathematics and codes, will not be elaborated. 
+Rather, we introduce modular conceptualization of robotics system benchmarking and SLAM to assist the reader in understanding the structure of our filtering system. 
+In-depth knowledge of SLAM systems is not strictly required, but we reference some of them in evaluating the results of our testing and experiments.
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Robotics System Benchmarking}
+
+\subsection{Background}
+Collaborative operations between man and machine has not only improve productivity, but also in some cases provide solutions not yet available to humans alone (disaster search and rescue robots) \cite{madhavan2009benchmarking}. 
+Co-development between engineering and computer sciences have started to lay the foundations for mechanical hardware and software systems of generic and domain-specific robots. 
+Yet without standardization, developing robotic technologies becomes not only ineffective, but also unprofessional and dangerous. 
+For example, with proper standardization of video medium, there was a wide confusion and frustration of choosing HD DVD or Blue Ray for home-video appliance among consumers. 
+On the other hand, successful standardization would bring synergies among different fields and cohesion between various research projects. 
+For instance, the immense progress in the wireless communication technology has largely attribute to the establishment of widely accepted industrial standards such as IEEE 802.11. \cite{madhavan2009benchmarking}.
+
+\subsection{Methodology}
+Objective performance evaluation is required for each field of robotic systems to continue the progress of research and to facilitate the acceptance of robotic technologies. 
+Yet it is not a trivial task to ensure that the evaluation is repeatable, unambiguous and holistic. Specifically, in the field of robot navigation and mapping, distinct research projects may take different approaches to measure the accuracy of mapping \cite{sturm2012benchmark} \cite{handa2014benchmark}. 
+However, even if a standard for accuracy comparison do exists, this benchmark is not enough to characterise the mapping system as a whole: there are still considerations such as energy consumption and performance. 
+Recently, there has been initiative, such as RoboBench, that intends to construct a framework that allows researchers to holistically benchmark all aspects of robotic systems and form a set of comparable, reproducible measure. 
+Hence, when building a benchmarking framework for robots, systematic approach needs to be taken to account the cost of computing over the task, the performance of robotics algorithms, as well as the costs incurred in infrastructure such as energy and networks \cite{weisz2016robobench}.
+
+To ensure the completeness of Robotic system benchmarking, two aspects of benchmark categories need to be considered: the method that determines how we benchmark, and the focus that determines what we benchmark \cite{del2006benchmarks}. 
+In general, there are two methods of benchmarking: analytical approach that concerns with evaluation of a robotics system on its own, and functional approach that test how a system solves a specific problem. 
+Similarly, in terms of the focus, there are also two targets of benchmarking: component – evaluation on one specific part of the system, and system – evaluation on the overall system. 
+By combining these criteria, we are able to form a matrix of our robotics benchmark system:
+
+
+	\begin{table}[h]
+		\centering
+		\caption{\label{tab:robobench}Robotics benchmark matrix.}
+		\begin{tabular}{|c|c|c|}
+	 	\hline
+		\rotatebox{90}{Analytical \textcolor{white}{hold}} & \makecell{ 1 \\ \\ \\ \\ } & \makecell{ 3 \\ \\ \\ \\ } \\ 
+		\hline
+		\rotatebox{90}{Functional \textcolor{white}{hold}} & \makecell{ 2 \\ \\ \\ \\ } & \makecell{ 4 \\ \\ \\ \\ } \\ 
+		\hline
+		\cellcolor[HTML]{000000} & Component (filter) & System (SLAM system) \\ 
+		\hline
+		\end{tabular}
+	\end{table}
+
+
+\subsection{Application}
+In the case of our filtering system in the SLAMBench, to apply the framework of holistic evaluation, we identify four potential areas of benchmark that we intend to explore based on Table \ref{tab:robobench}.
+\begin{enumerate}
+	\item \textbf{Use the same dataset and apply different filters.} \\
+	Since we already understand the task of each filter, this process merely allows us to observe whether data set has been correctly filtered.
+	\item \textbf{Use different datasets and apply the same filter.} \\
+	\textit{Targeting problem:} Supposed task of a filter\\
+	\textit{Benchmark purpose:} what is the performance of a filter at carrying out its filtering tasks.
+	\item \textbf{Use the same filter and apply to different SLAM systems.}\\
+	\textit{Benchmark purpose:} observe how the same filtering technique would impact different SLAM systems. 
+	\item \textbf{Use different filters and apply to the same SLAM systems.} \\
+	\textit{Targeting problem:} SLAM benchmarking outcome (accuracy, computational speed, energy consumption)\\
+	\textit{Benchmark purpose:} how does different filters affect a specific SLAM system? What is the optimal filtering technique for a SLAM system?
+\end{enumerate}
+
+These benchmarking methods are designed to be holistic to test the filtering system and its correlation with the SLAM systems. 
+In addition, to ensure that the benchmarking results are repeatable, only minimal configuration should be required throughout the system. 
+Therefore, modularization of each part of the system, where every module functions independently from each other, is the key to protect the integrity of the whole benchmarking system. 
+Further details with regards to benchmarking and system design are included in the following chapters ().
+
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Simultaneous Localization and Mapping}
+\subsection{SLAM Background}
+As mentioned in the Background section, we provide a conceptual state-of-art description of the Simultaneous Localization and Mapping (SLAM) system. 
+The system, as the name suggests, consists of two inseparable parts: mapping and localization. 
+Mapping refers to the process of incrementally building a map representation of an environment, while localization denotes the method to locate the robot in the current map in order to minimize the error \cite{perera2014exploration}.
+SLAM can be implemented by combination of hardware and software, including laser, monocular vision, and visual-inertial SLAM system, which leverages on RGB-D camera and inertial measurement unit (IMU).
+
+For now, whether SLAM is solved is still hard to answer in reality \cite{frese2010interview}, since under the SLAM domain, there are still various subdomains that are categorized by combining specific type of robot, operational environment and performance requirements. 
+Some, such as deterministic navigation environment and highly robust laser robot, can largely considered solved \cite{roboticskuka}. 
+On the other hand, for a visual-inertial SLAM system, the accuracy of mapping still varies dramatically with regards to the motion of robot and environment, including fast movement and highly dynamic and challenging environment. 
+Some small alternation in the navigation environment can still easily induce failure and largely drop the accuracy of mapping. 
+In addition, performance of a SLAM system is also directly determined by the computational bound and system requirement, in which case the evaluation of a SLAM system goes beyond theoretical mathematical investigation and aims to provide practical systematic optimization.
+
+\subsection{SLAM Benchmarking}
+Therefore, benchmarking a SLAM system now requires a renewed set of requirements to fulfill the current research demand and development of SLAM \cite{cadena2016past}.
+First, SLAM system needs to be tested on the robustness of performance. To what extent can a SLAM system operate with a large variety of dataset, yet maintain low failure rate for a long period of time? 
+This benchmarking requirement is essential for generic SLAM system that would be applied to different scenarios and conditions of robots. 
+In this regard, SLAMBench provides interfaces that allow researchers to test a SLAM system with different standardized datasets. 
+Second, SLAM system needs to benchmarked on a high-level understanding. 
+Basic geometry reconstruction is no longer the only measure to represent the robot’s understanding of the environment. 
+High-level geometry and semantics now become the main objective measure for accuracy of mapping. 
+To address this requirement, SLAM runs iterative closest point (ICP) algorithm on the point cloud models to gain a high-level understanding of differences between reconstruction and groud truth. 
+Third, SLAM system will need to be evaluated on its efficient usage of limited resources. 
+These resources include type and number of sensors, computational power, memory and energy storage. 
+Beyond algorithmic accuracy, SLAMBench provides performance metrics that consists of computation speed, power consumption and memory usage to evaluate SLAM system’s performance with limited resources. 
+
+Finally, a SLAM system should be tested on specific task-driven functionality. 
+This test will evaluate the capability of a SLAM system to process the relevant information and filter out inessential sensor data before feeding these data through core algorithms. 
+For this task, a decoupled filtering system is required to allow real-time prepossessing of sensor data from multiple channels. 
+The filtering system could be utilized for the following purposes.
+\begin{itemize}
+	\item \textbf{Expose the advantage and disadvantage of certain SLAM.} In visual SLAM, there are “direct” algorithms that directly use all intensity values \cite{newcombe2011kinectfusion}, and “indirect” methods that first extract features before ingestion \cite{davison2007monoslam}. On the other hand, there are “sparse” method that only uses a subset of features \cite{newcombe2011kinectfusion}, and “dense” method that ingest all pixel values \cite{whelan2015elasticfusion}. By using a filtering system, characteristics of a dataset (brightness, sharpness, etc.) could be extended to amplify strengths and weaknesses of all methods;
+	\item \textbf{Explore methods to optimize SLAM systems.} The filtering system allows real-time preprocessing of dataset to test certain parameters and improve the robustness of SLAM system when applied to different situations. Moreover, applying a specific filter has the potential to lessen power consumption, memory storage, and at the same time, improve computational speed.
+\end{itemize}
+
+However, this filtering system is not present in the SLAMBench framework. 
+Currently, there are other general-purpose SLAM benchmarking tools such as KITTI Benchmark Suite \cite{geiger2012we} and TUM RGB-D benchmarking \cite{sturm2012benchmark}. 
+Yet compared to SLAMBench, these benchmark tools do not allow flexible integration of real-world datasets. 
+In addition, these systems do not entirely address the SLAM benchmarking requirements as mentioned above. 
+Hence, an addition of filtering system to the SLAMBench framework makes the streamlined benchmarking procedure even more comprehensive, and at the same time, maintains the flexibility and scalability of SLAMBench. 

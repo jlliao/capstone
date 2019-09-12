@@ -1,50 +1,14 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\contentsline {chapter}{Acknowledgements}{ii}{section*.1}
-\contentsline {chapter}{Abstract}{iii}{section*.2}
-\contentsline {chapter}{\numberline {1}Tips}{1}{chapter.7}
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.8}
-\contentsline {subsection}{\numberline {1.1.1}Goal of this chaper}{1}{subsection.9}
-\contentsline {subsection}{\numberline {1.1.2}Structure of a chapter}{2}{subsection.10}
-\contentsline {subsubsection}{Because subsubsection that's why!}{2}{section*.11}
-\contentsline {paragraph}{Paragraph}{2}{section*.12}
-\contentsline {subparagraph}{Subparagraph}{3}{section*.13}
-\contentsline {section}{\numberline {1.2}Font Formatting Commands}{3}{section.14}
-\contentsline {subsection}{\numberline {1.2.1}Special characters}{3}{subsection.15}
-\contentsline {section}{\numberline {1.3}Equations}{4}{section.25}
-\contentsline {section}{\numberline {1.4}Code Snippets}{5}{section.27}
-\contentsline {section}{\numberline {1.5}Figures}{6}{section.34}
-\contentsline {subsection}{\numberline {1.5.1}Figure Size}{7}{subsection.36}
-\contentsline {subsection}{\numberline {1.5.2}Supported Formats}{7}{subsection.37}
-\contentsline {subsection}{\numberline {1.5.3}Multiple images in one figure}{8}{subsection.38}
-\contentsline {section}{\numberline {1.6}Tables}{9}{section.40}
-\contentsline {section}{\numberline {1.7}Bibliography}{10}{section.42}
-\contentsline {subsection}{\numberline {1.7.1}How to get Bibtex References?}{10}{subsection.43}
-\contentsline {section}{\numberline {1.8}End of the Tips}{12}{section.46}
-\contentsline {chapter}{\numberline {2}Chapter Title Here}{13}{chapter.47}
-\contentsline {section}{\numberline {2.1}Welcome and Thank You}{13}{section.48}
-\contentsline {section}{\numberline {2.2}Learning \LaTeX {}}{14}{section.49}
-\contentsline {subsection}{\numberline {2.2.1}A (not so short) Introduction to \LaTeX {}}{14}{subsection.50}
-\contentsline {subsection}{\numberline {2.2.2}A Short Math Guide for \LaTeX {}}{15}{subsection.51}
-\contentsline {subsection}{\numberline {2.2.3}Common \LaTeX {} Math Symbols}{15}{subsection.52}
-\contentsline {subsection}{\numberline {2.2.4}\LaTeX {} on a Mac}{16}{subsection.53}
-\contentsline {section}{\numberline {2.3}Getting Started with this Template}{16}{section.54}
-\contentsline {subsection}{\numberline {2.3.1}About this Template}{17}{subsection.55}
-\contentsline {section}{\numberline {2.4}What this Template Includes}{17}{section.56}
-\contentsline {subsection}{\numberline {2.4.1}Folders}{17}{subsection.57}
-\contentsline {subsection}{\numberline {2.4.2}Files}{18}{subsection.58}
-\contentsline {section}{\numberline {2.5}Filling in Your Information in the \texttt {\bfseries main.tex} File}{21}{section.59}
-\contentsline {section}{\numberline {2.6}The \texttt {main.tex} File Explained}{21}{section.60}
-\contentsline {section}{\numberline {2.7}Thesis Features and Conventions}{23}{section.61}
-\contentsline {subsection}{\numberline {2.7.1}Printing Format}{24}{subsection.62}
-\contentsline {subsection}{\numberline {2.7.2}Using US Letter Paper}{24}{subsection.63}
-\contentsline {subsection}{\numberline {2.7.3}References}{25}{subsection.64}
-\contentsline {subsubsection}{A Note on bibtex}{26}{section*.66}
-\contentsline {subsection}{\numberline {2.7.4}Tables}{26}{subsection.67}
-\contentsline {subsection}{\numberline {2.7.5}Figures}{27}{subsection.69}
-\contentsline {subsection}{\numberline {2.7.6}Typesetting mathematics}{29}{subsection.71}
-\contentsline {section}{\numberline {2.8}Sectioning and Subsectioning}{30}{section.73}
-\contentsline {section}{\numberline {2.9}In Closing}{31}{section.74}
-\contentsline {chapter}{Bibliography}{32}{chapter*.75}
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{33}{appendix.76}
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{33}{section.77}
+\contentsline {chapter}{Acknowledgements}{ii}{section*.1}% 
+\contentsline {chapter}{Abstract}{iii}{section*.2}% 
+\contentsline {chapter}{\numberline {1}Introduction and Motivation}{1}{chapter.4}% 
+\contentsline {chapter}{\numberline {2}Background and Related Work}{5}{chapter.6}% 
+\contentsline {section}{\numberline {2.1}Robotics System Benchmarking}{5}{section.7}% 
+\contentsline {subsection}{\numberline {2.1.1}Background}{5}{subsection.8}% 
+\contentsline {subsection}{\numberline {2.1.2}Methodology}{6}{subsection.9}% 
+\contentsline {subsection}{\numberline {2.1.3}Application}{8}{subsection.11}% 
+\contentsline {section}{\numberline {2.2}Simultaneous Localization and Mapping}{9}{section.16}% 
+\contentsline {subsection}{\numberline {2.2.1}SLAM Background}{9}{subsection.17}% 
+\contentsline {subsection}{\numberline {2.2.2}SLAM Benchmarking}{10}{subsection.18}% 
+\contentsline {chapter}{Bibliography}{13}{chapter*.19}% 

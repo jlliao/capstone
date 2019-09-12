@@ -16,86 +16,743 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}
-  \entry{Scholar}{misc}{}
+\datalist[entry]{none/global//global/global}
+  \entry{durrant2006simultaneous}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DWH}{%
+         family={Durrant-Whyte},
+         familyi={D\bibinithyphendelim W\bibinitperiod},
+         given={Hugh},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bailey},
+         familyi={B\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DWHBT1}
+    \strng{fullhash}{DWHBT1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{howpublished}{\url{http://scholar.google.com.sg/}}
-    \field{note}{Last Accessed: 1929-10-24}
-    \field{title}{Google Scholar}
+    \field{number}{2}
+    \field{pages}{99\bibrangedash 110}
+    \field{title}{Simultaneous localization and mapping: part I}
+    \field{volume}{13}
+    \field{journaltitle}{IEEE robotics \& automation magazine}
+    \field{year}{2006}
   \endentry
 
-  \entry{Lopez2017}{article}{}
-    \name{author}{1}{}{%
-      {{hash=LGD}{%
-         family={L{\'o}pez\bibnamedelima Garc{\'\i}a},
-         familyi={L\bibinitperiod\bibinitdelim G\bibinitperiod},
-         given={David},
+  \entry{krinkin2018evaluation}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=KK}{%
+         family={Krinkin},
+         familyi={K\bibinitperiod},
+         given={Kirill},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Filatov},
+         familyi={F\bibinitperiod},
+         given={Anton},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=yFA}{%
+         prefix={yom},
+         prefixi={y\bibinitperiod},
+         family={Filatov},
+         familyi={F\bibinitperiod},
+         given={Art},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Huletski},
+         familyi={H\bibinitperiod},
+         given={Artur},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kartashov},
+         familyi={K\bibinitperiod},
+         given={Dmitriy},
          giveni={D\bibinitperiod},
       }}%
     }
-    \strng{namehash}{LGD1}
-    \strng{fullhash}{LGD1}
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KKFAFAy+1}
+    \strng{fullhash}{KKFAFAyHAKD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2017}
-    \field{labeldatesource}{year}
-    \field{sortinit}{L}
-    \field{sortinithash}{L}
-    \field{number}{2}
-    \field{pages}{10}
-    \field{title}{Mediation Styles and Participants’ Perception of Success in
-  Consultative Councils: The case of Guadalajara, Mexico}
-    \field{volume}{13}
-    \field{journaltitle}{Journal of Public Deliberation}
-    \field{year}{2017}
+    \field{booktitle}{2018 22nd Conference of Open Innovations Association
+  (FRUCT)}
+    \field{pages}{101\bibrangedash 106}
+    \field{title}{Evaluation of modern laser based indoor slam algorithms}
+    \field{year}{2018}
   \endentry
 
-  \entry{Perrault2013}{inproceedings}{}
-    \name{author}{4}{}{%
-      {{hash=PST}{%
-         family={Perrault},
-         familyi={P\bibinitperiod},
-         given={Simon\bibnamedelima T},
-         giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+  \entry{bodin2018slambench2}{inproceedings}{}
+    \true{moreauthor}
+    \name{author}{10}{}{%
+      {{hash=BB}{%
+         family={Bodin},
+         familyi={B\bibinitperiod},
+         given={Bruno},
+         giveni={B\bibinitperiod},
       }}%
-      {{hash=LE}{%
-         family={Lecolinet},
-         familyi={L\bibinitperiod},
-         given={Eric},
+      {{hash=WH}{%
+         family={Wagstaff},
+         familyi={W\bibinitperiod},
+         given={Harry},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Saecdi},
+         familyi={S\bibinitperiod},
+         given={Sajad},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NL}{%
+         family={Nardi},
+         familyi={N\bibinitperiod},
+         given={Luigi},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=VE}{%
+         family={Vespa},
+         familyi={V\bibinitperiod},
+         given={Emanuele},
          giveni={E\bibinitperiod},
       }}%
-      {{hash=EJ}{%
-         family={Eagan},
-         familyi={E\bibinitperiod},
-         given={James},
+      {{hash=MJ}{%
+         family={Mawer},
+         familyi={M\bibinitperiod},
+         given={John},
          giveni={J\bibinitperiod},
       }}%
-      {{hash=GY}{%
-         family={Guiard},
-         familyi={G\bibinitperiod},
-         given={Yves},
-         giveni={Y\bibinitperiod},
+      {{hash=NA}{%
+         family={Nisbet},
+         familyi={N\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Luj{\'a}n},
+         familyi={L\bibinitperiod},
+         given={Mikel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Furber},
+         familyi={F\bibinitperiod},
+         given={Steve},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DAJ}{%
+         family={Davison},
+         familyi={D\bibinitperiod},
+         given={Andrew\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
     \list{organization}{1}{%
-      {ACM}%
+      {IEEE}%
     }
-    \strng{namehash}{PST+1}
-    \strng{fullhash}{PSTLEEJGY1}
+    \strng{namehash}{BBWHSS+1}
+    \strng{fullhash}{BBWHSSNLVEMJNALMFSDAJ+1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2013}
-    \field{labeldatesource}{year}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
-  Computing Systems}
-    \field{pages}{1451\bibrangedash 1460}
-    \field{title}{Watchit: simple gestures and eyes-free interaction for
-  wristwatches and bracelets}
-    \field{year}{2013}
+    \field{booktitle}{2018 IEEE International Conference on Robotics and
+  Automation (ICRA)}
+    \field{pages}{1\bibrangedash 8}
+    \field{title}{SLAMBench2: Multi-objective head-to-head benchmarking for
+  visual SLAM}
+    \field{year}{2018}
+  \endentry
+
+  \entry{strasdat2010real}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=SH}{%
+         family={Strasdat},
+         familyi={S\bibinitperiod},
+         given={Hauke},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Montiel},
+         familyi={M\bibinitperiod},
+         given={JMM},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DAJ}{%
+         family={Davison},
+         familyi={D\bibinitperiod},
+         given={Andrew\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SHMJDAJ1}
+    \strng{fullhash}{SHMJDAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2010 IEEE International Conference on Robotics and
+  Automation}
+    \field{pages}{2657\bibrangedash 2664}
+    \field{title}{Real-time monocular SLAM: Why filter?}
+    \field{year}{2010}
+  \endentry
+
+  \entry{madhavan2009benchmarking}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=MR}{%
+         family={Madhavan},
+         familyi={M\bibinitperiod},
+         given={Raj},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lakaemper},
+         familyi={L\bibinitperiod},
+         given={Rolf},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KNT}{%
+         family={Kalm{\'a}r-Nagy},
+         familyi={K\bibinithyphendelim N\bibinitperiod},
+         given={Tam{\'a}s},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{MRLRKNT1}
+    \strng{fullhash}{MRLRKNT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2009 International Conference on Advanced Robotics}
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{Benchmarking and standardization of intelligent robotic
+  systems}
+    \field{year}{2009}
+  \endentry
+
+  \entry{sturm2012benchmark}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=SJ}{%
+         family={Sturm},
+         familyi={S\bibinitperiod},
+         given={J{\"u}rgen},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=EN}{%
+         family={Engelhard},
+         familyi={E\bibinitperiod},
+         given={Nikolas},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=EF}{%
+         family={Endres},
+         familyi={E\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BW}{%
+         family={Burgard},
+         familyi={B\bibinitperiod},
+         given={Wolfram},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Cremers},
+         familyi={C\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{SJENEF+1}
+    \strng{fullhash}{SJENEFBWCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2012 IEEE/RSJ International Conference on Intelligent
+  Robots and Systems}
+    \field{pages}{573\bibrangedash 580}
+    \field{title}{A benchmark for the evaluation of RGB-D SLAM systems}
+    \field{year}{2012}
+  \endentry
+
+  \entry{handa2014benchmark}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=HA}{%
+         family={Handa},
+         familyi={H\bibinitperiod},
+         given={Ankur},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Whelan},
+         familyi={W\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McDonald},
+         familyi={M\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DAJ}{%
+         family={Davison},
+         familyi={D\bibinitperiod},
+         given={Andrew\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{HAWTMJ+1}
+    \strng{fullhash}{HAWTMJDAJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2014 IEEE international conference on Robotics and
+  automation (ICRA)}
+    \field{pages}{1524\bibrangedash 1531}
+    \field{title}{A benchmark for RGB-D visual odometry, 3D reconstruction and
+  SLAM}
+    \field{year}{2014}
+  \endentry
+
+  \entry{weisz2016robobench}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=WJ}{%
+         family={Weisz},
+         familyi={W\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Yipeng},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LF}{%
+         family={Lier},
+         familyi={L\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sethumadhavan},
+         familyi={S\bibinitperiod},
+         given={Simha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AP}{%
+         family={Allen},
+         familyi={A\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{WJHYLF+1}
+    \strng{fullhash}{WJHYLFSSAP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 IEEE International Conference on Robotics and
+  Automation (ICRA)}
+    \field{pages}{3383\bibrangedash 3389}
+    \field{title}{RoboBench: Towards sustainable robotics system benchmarking}
+    \field{year}{2016}
+  \endentry
+
+  \entry{del2006benchmarks}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=dPAP}{%
+         prefix={del},
+         prefixi={d\bibinitperiod},
+         family={Pobil},
+         familyi={P\bibinitperiod},
+         given={Angel\bibnamedelima P},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Madhavan},
+         familyi={M\bibinitperiod},
+         given={Rad},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Messina},
+         familyi={M\bibinitperiod},
+         given={Elena},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Citeseer}%
+    }
+    \strng{namehash}{PAPdMRME1}
+    \strng{fullhash}{PAPdMRME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Workshop IROS}
+    \field{title}{Benchmarks in robotics research}
+    \field{year}{2006}
+  \endentry
+
+  \entry{perera2014exploration}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PS}{%
+         family={Perera},
+         familyi={P\bibinitperiod},
+         given={Samunda},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BDN}{%
+         family={Barnes},
+         familyi={B\bibinitperiod},
+         given={Dr\bibnamedelima Nick},
+         giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=ZDA}{%
+         family={Zelinsky},
+         familyi={Z\bibinitperiod},
+         given={Dr\bibnamedelima Alexander},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{PSBDNZDA1}
+    \strng{fullhash}{PSBDNZDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{268\bibrangedash 275}
+    \field{title}{Exploration: Simultaneous Localization and Mapping (SLAM)}
+    \field{journaltitle}{Computer Vision: A Reference Guide}
+    \field{year}{2014}
+  \endentry
+
+  \entry{frese2010interview}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FU}{%
+         family={Frese},
+         familyi={F\bibinitperiod},
+         given={Udo},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{FU1}
+    \strng{fullhash}{FU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{255\bibrangedash 257}
+    \field{title}{Interview: Is slam solved?}
+    \field{volume}{24}
+    \field{journaltitle}{KI-K{\"u}nstliche Intelligenz}
+    \field{year}{2010}
+  \endentry
+
+  \entry{roboticskuka}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RK}{%
+         family={Robotics},
+         familyi={R\bibinitperiod},
+         given={Kuka},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RK1}
+    \strng{fullhash}{RK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Kuka Navigation Solution, 2016}
+  \endentry
+
+  \entry{cadena2016past}{article}{}
+    \name{author}{8}{}{%
+      {{hash=CC}{%
+         family={Cadena},
+         familyi={C\bibinitperiod},
+         given={Cesar},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Carlone},
+         familyi={C\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Carrillo},
+         familyi={C\bibinitperiod},
+         given={Henry},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Latif},
+         familyi={L\bibinitperiod},
+         given={Yasir},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Scaramuzza},
+         familyi={S\bibinitperiod},
+         given={Davide},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Neira},
+         familyi={N\bibinitperiod},
+         given={Jos{\'e}},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RI}{%
+         family={Reid},
+         familyi={R\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LJJ}{%
+         family={Leonard},
+         familyi={L\bibinitperiod},
+         given={John\bibnamedelima J},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{CCCLCH+1}
+    \strng{fullhash}{CCCLCHLYSDNJRILJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{1309\bibrangedash 1332}
+    \field{title}{Past, present, and future of simultaneous localization and
+  mapping: Toward the robust-perception age}
+    \field{volume}{32}
+    \field{journaltitle}{IEEE Transactions on robotics}
+    \field{year}{2016}
+  \endentry
+
+  \entry{newcombe2011kinectfusion}{inproceedings}{}
+    \name{author}{10}{}{%
+      {{hash=NRA}{%
+         family={Newcombe},
+         familyi={N\bibinitperiod},
+         given={Richard\bibnamedelima A},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=IS}{%
+         family={Izadi},
+         familyi={I\bibinitperiod},
+         given={Shahram},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={Hilliges},
+         familyi={H\bibinitperiod},
+         given={Otmar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Molyneaux},
+         familyi={M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DAJ}{%
+         family={Davison},
+         familyi={D\bibinitperiod},
+         given={Andrew\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Kohli},
+         familyi={K\bibinitperiod},
+         given={Pushmeet},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shotton},
+         familyi={S\bibinitperiod},
+         given={Jamie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hodges},
+         familyi={H\bibinitperiod},
+         given={Steve},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FAW}{%
+         family={Fitzgibbon},
+         familyi={F\bibinitperiod},
+         given={Andrew\bibnamedelima W},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NRAISHO+1}
+    \strng{fullhash}{NRAISHOMDKDDAJKPSJHSFAW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{ISMAR}
+    \field{number}{2011}
+    \field{pages}{127\bibrangedash 136}
+    \field{title}{Kinectfusion: Real-time dense surface mapping and tracking.}
+    \field{volume}{11}
+    \field{year}{2011}
+  \endentry
+
+  \entry{davison2007monoslam}{article}{}
+    \name{author}{4}{}{%
+      {{hash=DAJ}{%
+         family={Davison},
+         familyi={D\bibinitperiod},
+         given={Andrew\bibnamedelima J},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=RID}{%
+         family={Reid},
+         familyi={R\bibinitperiod},
+         given={Ian\bibnamedelima D},
+         giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MND}{%
+         family={Molton},
+         familyi={M\bibinitperiod},
+         given={Nicholas\bibnamedelima D},
+         giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Stasse},
+         familyi={S\bibinitperiod},
+         given={Olivier},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{DAJRIDMND+1}
+    \strng{fullhash}{DAJRIDMNDSO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{1052\bibrangedash 1067}
+    \field{title}{MonoSLAM: Real-time single camera SLAM}
+    \field{journaltitle}{IEEE Transactions on Pattern Analysis \& Machine
+  Intelligence}
+    \field{year}{2007}
+  \endentry
+
+  \entry{whelan2015elasticfusion}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=WT}{%
+         family={Whelan},
+         familyi={W\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Leutenegger},
+         familyi={L\bibinitperiod},
+         given={Stefan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SMR}{%
+         family={Salas-Moreno},
+         familyi={S\bibinithyphendelim M\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=GB}{%
+         family={Glocker},
+         familyi={G\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Davison},
+         familyi={D\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{2}{%
+      {Robotics: Science}%
+      {Systems}%
+    }
+    \strng{namehash}{WTLSSMR+1}
+    \strng{fullhash}{WTLSSMRGBDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{ElasticFusion: Dense SLAM without a pose graph}
+    \field{year}{2015}
+  \endentry
+
+  \entry{geiger2012we}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=GA}{%
+         family={Geiger},
+         familyi={G\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lenz},
+         familyi={L\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=UR}{%
+         family={Urtasun},
+         familyi={U\bibinitperiod},
+         given={Raquel},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{GALPUR1}
+    \strng{fullhash}{GALPUR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2012 IEEE Conference on Computer Vision and Pattern
+  Recognition}
+    \field{pages}{3354\bibrangedash 3361}
+    \field{title}{Are we ready for autonomous driving? the kitti vision
+  benchmark suite}
+    \field{year}{2012}
   \endentry
 \enddatalist
 \endinput

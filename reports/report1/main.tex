@@ -55,7 +55,8 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{listings}
 \usepackage{hyperref}
 \usepackage{amsmath}
-\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage{makecell}
+\usepackage[backend=bibtex,style=ieee,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 
 \addbibresource{biblio.bib} % The filename of the bibliography
 
@@ -212,11 +213,11 @@ Abstract goes here.
 
 \tableofcontents % Prints the main table of contents
 
-\listoftables % Prints the list of tables
-\label{lst:tabs}
+% \listoftables % Prints the list of tables
+% \label{lst:tabs}
 
-\listoffigures % Prints the list of figures
-\label{lst:figs}
+% \listoffigures % Prints the list of figures
+% \label{lst:figs}
 %----------------------------------------------------------------------------------------
 %	ABBREVIATIONS
 %----------------------------------------------------------------------------------------
@@ -261,7 +262,7 @@ Abstract goes here.
 %	DEDICATION
 %----------------------------------------------------------------------------------------
 
-\dedicatory{Dedicated to ceux l\`{a} qui veulent.}
+% \dedicatory{Dedicated to ceux l\`{a} qui veulent.}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -275,7 +276,8 @@ Abstract goes here.
 % Uncomment the lines as you write the chapters
 
 \input{chapters/chapter1}
-\input{chapters/otherchapter}
+\input{chapters/chapter2}
+% \input{chapters/otherchapter}
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
@@ -287,12 +289,12 @@ Abstract goes here.
 %	THESIS CONTENT - APPENDICES
 %----------------------------------------------------------------------------------------
 
-\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+% \appendix % Cue to tell LaTeX that the following "chapters" are Appendices
 
 % Include the appendices of the thesis as separate files from the Appendices folder
 % Uncomment the lines as you write the Appendices
 
- \input{appendix/appendixA}
+ % \input{appendix/appendixA}
 
 %----------------------------------------------------------------------------------------
 
