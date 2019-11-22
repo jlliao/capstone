@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.8)  13 SEP 2019 07:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.8)  9 NOV 2019 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -995,74 +995,23 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
-Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
-\csq@reset=\count441
-\csq@gtype=\count442
-\csq@glevel=\count443
-\csq@qlevel=\count444
-\csq@maxlvl=\count445
-\csq@tshold=\count446
-\csq@ltx@everypar=\toks30
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def
-File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
-)
-Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
-Package csquotes Info: ... configuration file loaded successfully.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg
-File: csquotes.cfg 
-)
-Package csquotes Info: Enabling multilingual quotes.
-)
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 105.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 105.
-Package hyperref Info: Option `colorlinks' set `true' on input line 105.
-Package hyperref Info: Option `unicode' set `true' on input line 105.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Option `breaklinks' set `true' on input line 105.
-
-
-Package biblatex Warning: File 'english-ieee.lbx' not found!
-(biblatex)                Ignoring mapping 'english' -> 'english-ieee'.
-
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
-)
-Package csquotes Info: Checking for multilingual support...
-Package csquotes Info: ... found 'babel' package.
-
-(./main.aux)
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 105.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
-File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -1138,6 +1087,155 @@ File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
    defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip95
+\enit@outerparindent=\dimen260
+\enit@toks=\toks30
+\enit@inbox=\box66
+\enit@count@id=\count441
+\enitdp@description=\count442
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
+\csq@reset=\count443
+\csq@gtype=\count444
+\csq@glevel=\count445
+\csq@qlevel=\count446
+\csq@maxlvl=\count447
+\csq@tshold=\count448
+\csq@ltx@everypar=\toks31
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2018/04/13 v5.2d csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 120.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 120.
+Package hyperref Info: Option `colorlinks' set `true' on input line 120.
+Package hyperref Info: Option `unicode' set `true' on input line 120.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 120.
+
+
+Package biblatex Warning: File 'english-ieee.lbx' not found!
+(biblatex)                Ignoring mapping 'english' -> 'english-ieee'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 120.
+
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 120.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1147,17 +1245,17 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count447
-\scratchdimen=\dimen260
-\scratchbox=\box66
-\nofMPsegments=\count448
-\nofMParguments=\count449
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count450
-\MPscratchDim=\dimen261
-\MPnumerator=\count451
-\makeMPintoPDFobject=\count452
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count449
+\scratchdimen=\dimen261
+\scratchbox=\box67
+\nofMPsegments=\count450
+\nofMParguments=\count451
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count452
+\MPscratchDim=\dimen262
+\MPnumerator=\count453
+\makeMPintoPDFobject=\count454
+\everyMPtoPDFconversion=\toks33
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1216,7 +1314,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 105.
+(scrlayer)             \begin{document} on input line 120.
 
 Package scrlayer-scrpage Warning: Very small head height detected!
 (scrlayer-scrpage)                Using scrlayer-scrpage the head height
@@ -1230,14 +1328,14 @@ Package scrlayer-scrpage Warning: Very small head height detected!
 (scrlayer-scrpage)                option `singlespacing=true'
 (scrlayer-scrpage)                to avoid this warning.
 
-Package scrbase Info: activating english \abbrevname on input line 105.
-Package scrbase Info: activating english \byname on input line 105.
-Package scrbase Info: activating english \acknowledgementname on input line 105
+Package scrbase Info: activating english \abbrevname on input line 120.
+Package scrbase Info: activating english \byname on input line 120.
+Package scrbase Info: activating english \acknowledgementname on input line 120
 .
-Package scrbase Info: activating english \authorshipname on input line 105.
-Package scrbase Info: activating english \constantsname on input line 105.
-Package scrbase Info: activating english \symbolsname on input line 105.
-\AtBeginShipoutBox=\box67
+Package scrbase Info: activating english \authorshipname on input line 120.
+Package scrbase Info: activating english \constantsname on input line 120.
+Package scrbase Info: activating english \symbolsname on input line 120.
+\AtBeginShipoutBox=\box68
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -1251,13 +1349,13 @@ File: lscape.hak 2019/02/01 v3.26b KOMA-Script package (hacking package lscape)
 
 Package scrhack Info: \landscape patched to make \textheight change optional on
  input line 90.
-\scrh@LT@textheight=\skip95
+\scrh@LT@textheight=\skip96
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count453
-Package scrhack Info: undefining \float@addtolists on input line 105.
-Package hyperref Info: Link coloring ON on input line 105.
+\c@lstlisting=\count455
+Package scrhack Info: undefining \float@addtolists on input line 120.
+Package hyperref Info: Link coloring ON on input line 120.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1265,11 +1363,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count454
+\c@section@level=\count456
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -1286,105 +1384,85 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 105.
-Package biblatex Info: Reference segment=0 on input line 105.
+Package biblatex Info: Reference section=0 on input line 120.
+Package biblatex Info: Reference segment=0 on input line 120.
 
 
 Package hyperref Warning: Option `colorlinks' has already been used,
-(hyperref)                setting the option has no effect on input line 105.
+(hyperref)                setting the option has no effect on input line 120.
 
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 105.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 120.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 105
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 120
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 105
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 120
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 105
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 120
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 105
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 120
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 1: section
-<titlepage.pdf, id=52, 614.295pt x 794.97pt>
+<titlepage.pdf, id=96, 614.295pt x 794.97pt>
 File: titlepage.pdf Graphic file (type pdf)
 <use titlepage.pdf>
-Package pdftex.def Info: titlepage.pdf  used on input line 117.
+Package pdftex.def Info: titlepage.pdf  used on input line 132.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: titlepage.pdf Graphic file (type pdf)
 <use titlepage.pdf>
-Package pdftex.def Info: titlepage.pdf  used on input line 117.
+Package pdftex.def Info: titlepage.pdf  used on input line 132.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<titlepage.pdf, id=55, page=1, 614.295pt x 794.97pt>
+<titlepage.pdf, id=99, page=1, 614.295pt x 794.97pt>
 File: titlepage.pdf Graphic file (type pdf)
 <use titlepage.pdf, page 1>
-Package pdftex.def Info: titlepage.pdf , page1 used on input line 117.
+Package pdftex.def Info: titlepage.pdf , page1 used on input line 132.
 (pdftex.def)             Requested size: 384.11223pt x 497.08551pt.
 File: titlepage.pdf Graphic file (type pdf)
 <use titlepage.pdf, page 1>
-Package pdftex.def Info: titlepage.pdf , page1 used on input line 117.
+Package pdftex.def Info: titlepage.pdf , page1 used on input line 132.
 (pdftex.def)             Requested size: 955.84052pt x 1236.97011pt.
 File: titlepage.pdf Graphic file (type pdf)
 <use titlepage.pdf, page 1>
-Package pdftex.def Info: titlepage.pdf , page1 used on input line 117.
+Package pdftex.def Info: titlepage.pdf , page1 used on input line 132.
 (pdftex.def)             Requested size: 955.84052pt x 1236.97011pt.
 File: titlepage.pdf Graphic file (type pdf)
 <use titlepage.pdf, page 1>
-Package pdftex.def Info: titlepage.pdf , page1 used on input line 117.
+Package pdftex.def Info: titlepage.pdf , page1 used on input line 132.
 (pdftex.def)             Requested size: 955.84052pt x 1236.97011pt.
 File: titlepage.pdf Graphic file (type pdf)
 <use titlepage.pdf, page 1>
-Package pdftex.def Info: titlepage.pdf , page1 used on input line 117.
+Package pdftex.def Info: titlepage.pdf , page1 used on input line 132.
 (pdftex.def)             Requested size: 955.84052pt x 1236.97011pt.
 [1
 
 
 
  <./titlepage.pdf>]
-<declaration.pdf, id=89, 597.45204pt x 845.1575pt>
-File: declaration.pdf Graphic file (type pdf)
-<use declaration.pdf>
-Package pdftex.def Info: declaration.pdf  used on input line 126.
-(pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-File: declaration.pdf Graphic file (type pdf)
-<use declaration.pdf>
-Package pdftex.def Info: declaration.pdf  used on input line 126.
-(pdftex.def)             Requested size: 597.45058pt x 845.15544pt.
-<declaration.pdf, id=92, page=1, 597.45204pt x 845.1575pt>
-File: declaration.pdf Graphic file (type pdf)
-<use declaration.pdf, page 1>
-Package pdftex.def Info: declaration.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 384.11223pt x 543.375pt.
-File: declaration.pdf Graphic file (type pdf)
-<use declaration.pdf, page 1>
-Package pdftex.def Info: declaration.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 929.63295pt x 1315.06165pt.
-File: declaration.pdf Graphic file (type pdf)
-<use declaration.pdf, page 1>
-Package pdftex.def Info: declaration.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 929.63295pt x 1315.06165pt.
-File: declaration.pdf Graphic file (type pdf)
-<use declaration.pdf, page 1>
-Package pdftex.def Info: declaration.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 929.63295pt x 1315.06165pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 233.
+ (./main.toc
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 
+1: section
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 23.99747pt needed,
@@ -1393,46 +1471,21 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=23.99747pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
-26.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
+3.
 
 
 Overfull \vbox (3.33585pt too high) has occurred while \output is active []
 
-File: declaration.pdf Graphic file (type pdf)
-<use declaration.pdf, page 1>
-Package pdftex.def Info: declaration.pdf , page1 used on input line 126.
-(pdftex.def)             Requested size: 929.63295pt x 1315.06165pt.
 
-[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./dec
-laration.pdf>]
---------------------
- Acknowledgements
---------------------
-1: section
-[2
+[1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-]
---------------------
- Abstract
---------------------
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
-1: section
-[3
-
-]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 214.
- (./main.toc)
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 
-1: section
-[4
-
-]
+[2]
 1: section
 (./chapters/chapter1.tex
 Chapter 1.
@@ -1449,20 +1502,17 @@ M-system-
  []
 
 [2]
-<figures/kinectfusion.png, id=171, 853.1875pt x 539.01375pt>
+<figures/kinectfusion.png, id=187, 853.1875pt x 539.01375pt>
 File: figures/kinectfusion.png Graphic file (type png)
 <use figures/kinectfusion.png>
 Package pdftex.def Info: figures/kinectfusion.png  used on input line 37.
 (pdftex.def)             Requested size: 312.9803pt x 197.72945pt.
  [3 <./figures/kinectfusion.png>]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 53.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 53.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsppl.fd
-File: omsppl.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
-)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+))
 (./chapters/chapter2.tex [4]
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
@@ -1472,99 +1522,274 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 
 Overfull \hbox (20.35594pt too wide) in paragraph at lines 19--25
 \T1/ppl/m/n/12 able to hu-mans alone (dis-as-ter search and res-cue robots) [[]
-[]5[][]]. Co-development
+[]6[][]]. Co-development
  []
 
 1: section
 [5
 
-] [6] [7] [8] [9] [10] [11])
-Overfull \hbox (1.1406pt too wide) in paragraph at lines 116--281
+] [6] [7] [8] [9] [10] [11] [12]
+Overfull \hbox (1.1406pt too wide) in paragraph at lines 134--139
 []\T1/ppl/m/n/12 However, this fil-ter-ing sys-tem is not present in the SLAM-B
 ench frame-
  []
 
-[12]
-Overfull \hbox (2.3605pt too wide) in paragraph at lines 286--286
+[13]
+<figures/slambench-architecture.png, id=286, 963.6pt x 542.025pt>
+File: figures/slambench-architecture.png Graphic file (type png)
+<use figures/slambench-architecture.png>
+Package pdftex.def Info: figures/slambench-architecture.png  used on input line
+ 152.
+(pdftex.def)             Requested size: 398.33858pt x 224.0595pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 152--154
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 159.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [14 <./figures/slambench-architecture.png>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 172.
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (2.27133pt too wide) in paragraph at lines 172--174
+\T1/ppl/m/n/12 clud-ing RGB, greyscale, depth im-ages, IMU data and pixel event
+s. SLAM-
+ []
+
+<figures/api-workflow.png, id=295, 963.6pt x 542.025pt>
+File: figures/api-workflow.png Graphic file (type png)
+<use figures/api-workflow.png>
+Package pdftex.def Info: figures/api-workflow.png  used on input line 183.
+(pdftex.def)             Requested size: 398.33858pt x 224.0595pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 183--185
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (6.42361pt too wide) in paragraph at lines 187--194
+\T1/ppl/m/n/12 func-tion. Af-ter-wards, es-ti-ma-tion of pose and map-ping is o
+b-tained through
+ []
+
+[15] [16 <./figures/api-workflow.png>]
+Overfull \hbox (5.06696pt too wide) in paragraph at lines 211--213
+\T1/ppl/m/n/12 Since the API man-age-ment sys-tem of SLAM-Bench ex-trap-o-lates
+ the generic
+ []
+
+[17] [18]
+<figures/concurrency.png, id=338, 963.6pt x 542.025pt>
+File: figures/concurrency.png Graphic file (type png)
+<use figures/concurrency.png>
+Package pdftex.def Info: figures/concurrency.png  used on input line 230.
+(pdftex.def)             Requested size: 398.33858pt x 224.0595pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 230--232
+ [][] 
+ []
+
+[19 <./figures/concurrency.png>]) (./chapters/chapter3.tex [20] [21]
+Chapter 3.
+
+Overfull \hbox (4.90726pt too wide) in paragraph at lines 20--21
+[]\T1/ppl/m/n/12 Originally, in the header file [][][][][][], there
+ []
+
+
+Overfull \hbox (5.77928pt too wide) in paragraph at lines 23--24
+[][][][][][][] \T1/ppl/m/n/12 - ini-tial-ize the fil-ter with the user-
+ []
+
+1: section
+[22
+
+]
+<figures/filter-architecture.png, id=362, 527.6993pt x 573.88367pt>
+File: figures/filter-architecture.png Graphic file (type png)
+<use figures/filter-architecture.png>
+Package pdftex.def Info: figures/filter-architecture.png  used on input line 33
+.
+(pdftex.def)             Requested size: 398.33858pt x 433.2051pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 33--35
+ [][] 
+ []
+
+
+Overfull \hbox (16.61386pt too wide) in paragraph at lines 50--53
+\T1/ppl/m/n/12 frames in the [][][][][][] func-tion and it-er-ate through frame
+s
+ []
+
+[23] [24 <./figures/filter-architecture.png>]
+Overfull \hbox (19.61626pt too wide) in paragraph at lines 61--62
+[][][][][][][] \T1/ppl/m/n/12 - when does the SLAM-Bench loader
+ []
+
+[25]
+Overfull \hbox (12.10007pt too wide) in paragraph at lines 70--71
+[][][][][][][] \T1/ppl/m/n/12 - ^^U a func-tion that re-turns Boolean value,
+ []
+
+<figures/flow-filter-architecture.png, id=384, 833.76758pt x 540.8839pt>
+File: figures/flow-filter-architecture.png Graphic file (type png)
+<use figures/flow-filter-architecture.png>
+Package pdftex.def Info: figures/flow-filter-architecture.png  used on input li
+ne 83.
+(pdftex.def)             Requested size: 398.33858pt x 258.4081pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 83--85
+ [][] 
+ []
+
+<figures/control-flow-diagram.png, id=386, 657.709pt x 962.38684pt>
+File: figures/control-flow-diagram.png Graphic file (type png)
+<use figures/control-flow-diagram.png>
+Package pdftex.def Info: figures/control-flow-diagram.png  used on input line 9
+1.
+(pdftex.def)             Requested size: 341.43306pt x 499.60701pt.
+[26]
+Overfull \hbox (13.98105pt too wide) in paragraph at lines 105--108
+\T1/ppl/m/n/12 SLAM-Bench API, in-clud-ing [][][][][][], and [][][][][][]
+ []
+
+[27 <./figures/flow-filter-architecture.png>] [28 <./figures/control-flow-diagr
+am.png>]
+<figures/interaction-diagram.png, id=409, 962.3321pt x 541.64464pt>
+File: figures/interaction-diagram.png Graphic file (type png)
+<use figures/interaction-diagram.png>
+Package pdftex.def Info: figures/interaction-diagram.png  used on input line 11
+3.
+(pdftex.def)             Requested size: 398.33858pt x 224.1998pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 113--115
+ [][] 
+ []
+
+[29 <./figures/interaction-diagram.png>]
+<figures/sensor-filter-architecture.png, id=415, 962.3321pt x 541.64464pt>
+File: figures/sensor-filter-architecture.png Graphic file (type png)
+<use figures/sensor-filter-architecture.png>
+Package pdftex.def Info: figures/sensor-filter-architecture.png  used on input 
+line 130.
+(pdftex.def)             Requested size: 398.33858pt x 224.1998pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 130--132
+ [][] 
+ []
+
+[30 <./figures/sensor-filter-architecture.png>]) (./chapters/chapter4.tex
+[31]
+Chapter 4.
+<figures/flow-filter-complex.png, id=426, 882.45474pt x 164.31915pt>
+File: figures/flow-filter-complex.png Graphic file (type png)
+<use figures/flow-filter-complex.png>
+Package pdftex.def Info: figures/flow-filter-complex.png  used on input line 11
+.
+(pdftex.def)             Requested size: 398.33858pt x 74.1736pt.
+
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 11--13
+ [][] 
+ []
+
+)
+1: section
+[32
+
+ <./figures/flow-filter-complex.png>]
+Overfull \hbox (2.3605pt too wide) in paragraph at lines 307--307
 \T1/ppl/m/n/12 tashov, ^^P  Eval-u-a-tion of mod-ern laser based in-door slam a
 l-go-rithms^^Q,
  []
 
 
-Overfull \hbox (2.75053pt too wide) in paragraph at lines 286--286
+Overfull \hbox (2.75053pt too wide) in paragraph at lines 307--307
 \T1/ppl/m/n/12 Nis-bet, M. Lu-ján, S. Furber, A. J. Davi-son, \T1/ppl/m/it/12 e
 t al.\T1/ppl/m/n/12 , ^^P  Slam-bench2: Multi-
  []
 
 
-Overfull \hbox (2.31247pt too wide) in paragraph at lines 286--286
+Overfull \hbox (2.31247pt too wide) in paragraph at lines 307--307
 \T1/ppl/m/n/12 objective head-to-head bench-mark-ing for vi-sual slam^^Q, in \T
 1/ppl/m/it/12 2018 IEEE
  []
 
 1: section
-[13
+[33
 
 ]
-Overfull \hbox (25.03293pt too wide) in paragraph at lines 286--286
+Overfull \hbox (25.03293pt too wide) in paragraph at lines 307--307
 []\T1/ppl/m/n/12 J. Weisz, Y. Huang, F. Lier, S. Sethu-mad-ha-van, and P. Allen
 , ^^P  Robobench:
  []
 
 
-Overfull \hbox (13.62714pt too wide) in paragraph at lines 286--286
+Overfull \hbox (13.62714pt too wide) in paragraph at lines 307--307
 []\T1/ppl/m/n/12 A. P. del Po-bil, R. Mad-ha-van, and E. Messina, ^^P  Bench-ma
 rks in robotics
  []
 
-
-Overfull \hbox (13.42267pt too wide) in paragraph at lines 286--286
+[34]
+Overfull \hbox (13.42267pt too wide) in paragraph at lines 307--307
 []\T1/ppl/m/n/12 U. Frese, ^^P  In-ter-view: Is slam solved?^^Q, \T1/ppl/m/it/1
 2 KI-Künstliche In-tel-li-genz\T1/ppl/m/n/12 , vol. 24,
  []
 
 
-Overfull \hbox (16.47647pt too wide) in paragraph at lines 286--286
+Overfull \hbox (16.47647pt too wide) in paragraph at lines 307--307
 \T1/ppl/m/n/12 Davi-son, P. Kohli, J. Shot-ton, S. Hodges, and A. W. Fitzgib-bo
 n, ^^P  Kinect-
  []
 
-[14]
-Overfull \hbox (2.9011pt too wide) in paragraph at lines 286--286
+
+Overfull \hbox (2.9011pt too wide) in paragraph at lines 307--307
 []\T1/ppl/m/n/12 T. Whe-lan, S. Leuteneg-ger, R Salas-Moreno, B. Glocker, and A
 . Davi-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
+[35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+ [36]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3C057309090CB0FF0DF38D0D3D9F66A4;1738.
+(rerunfilecheck)             Checksum: BAEE41F5843484F17F2509CF960BD7AD;3816.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38257 strings out of 492616
- 755645 string characters out of 6129482
- 1007072 words of memory out of 5000000
- 41753 multiletter control sequences out of 15000+600000
- 564208 words of font info for 76 fonts, out of 8000000 for 9000
+ 39433 strings out of 492616
+ 773618 string characters out of 6129482
+ 1026149 words of memory out of 5000000
+ 42815 multiletter control sequences out of 15000+600000
+ 562824 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,19n,83p,852b,2991s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2
-019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist
-/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (20 pages, 306390 bytes).
+ 63i,20n,83p,852b,3439s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
+/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (39 pages, 978513 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 241 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 513 PDF objects out of 1000 (max. 8388607)
+ 431 compressed objects within 5 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

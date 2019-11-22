@@ -58,6 +58,21 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{makecell}
 \usepackage[backend=bibtex,style=ieee,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 
+\usepackage{textcomp}
+\usepackage{listings}
+\lstset{upquote=true}
+\lstset{showstringspaces=false}
+\usepackage{enumitem}
+\definecolor{codegreen}{RGB}{238, 254, 206}
+\definecolor{framegreen}{RGB}{171, 203, 155}
+\lstset{backgroundcolor=\color{codegreen}}
+\lstset{frame=lines,
+	rulecolor=\color{framegreen}}
+\lstset{basicstyle=\fontfamily{pcr}\scriptsize\selectfont}
+
+\definecolor{light-gray}{gray}{0.95}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+
 \addbibresource{biblio.bib} % The filename of the bibliography
 
 
@@ -123,25 +138,29 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 
 % print, sign, and scan the declaration form, then include it here
-\includepdf[pages=-,pagecommand={},width=\textwidth]{declaration.pdf}
+%\includepdf[pages=-,pagecommand={},width=\textwidth]{declaration.pdf}
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
 
-\begin{acknowledgements}
-\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
-Acknowledgements go here.
-\end{acknowledgements}
+%\begin{acknowledgements}
+%\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
+%This capstone would not have been possible without the support of my faculty, friends and family.
+
+%We thank Dr. Bruno Bodin for his invaluable advice on every aspect of this project, as well as his eagerness in teaching and recommending additional sources of information. 
+
+%Additionally, we would like to thank the suite mates of Elm College’s 21st floor and my mother for emotional support throughout the process.
+%\end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
 
-\begin{abstract}
-\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-Abstract goes here.
-\end{abstract}
+%\begin{abstract}
+%\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+%Abstract goes here.
+%\end{abstract}
 
 
 %----------------------------------------------------------------------------------------
@@ -277,6 +296,8 @@ Abstract goes here.
 
 \input{chapters/chapter1}
 \input{chapters/chapter2}
+\input{chapters/chapter3}
+\input{chapters/chapter4}
 % \input{chapters/otherchapter}
 
 %----------------------------------------------------------------------------------------
